@@ -1,0 +1,80 @@
+h1 {
+  text-align: center;
+  font-size: 14pt;
+  margin: 10px 0 10px 0;
+}
+h2 {
+  text-align: center;
+  font-size: 10pt;
+  margin: 0;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  width: 90%;
+  height: 30px;
+}
+.simon-container {
+  width: 500px;
+  height: 500px;
+  margin: 25px auto 0 auto;
+  background-color: gray;
+  position: relative;
+  border-radius: 5px;
+}
+.block-color {
+  width: 47%;
+  height: 235px;
+  float: left;
+  margin: 10px 0 0 10px;
+  border-radius: 5px;
+}
+.block-buttons {
+  width:40%;
+  height: 150px;
+  position: absolute;
+  top: 170px;
+  left: 145px;
+  background-color: whitesmoke;
+  border: 5px solid gray;
+  border-radius: 5px;
+}
+.block-count, .block-start, .block-strict {
+  float: left;
+  height: 100px;
+}
+.block-count {
+  width: 50%;
+}
+.block-start, .block-strict {
+  width: 25%;
+  padding: 25px 0 0 0;
+}
+
+#green {background-color: green;}
+#green.bright {background-color: rgb(80, 187, 80);}
+#red {background-color: rgb(230,0,0);}
+#red.bright {background-color: rgb(255,100,100);}
+#yellow {background-color: rgb(230,230,0);}
+#yellow.bright {background-color: rgb(255,255,100);}
+#blue {background-color: blue;}
+#blue.bright {background-color: rgb(100,100,255);}
+#win-count {
+  height: 64px;
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+  padding: 16px 0 0 0;
+}
+#button-start {
+  background-color: blue;
+  color: silver;
+}
+#button-strict {
+  background-color: green;
+}
+#button-strict.disabled {
+  background-color: red;
+  color: silver;
+}
